@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
- 
-
 class LoginScreen extends StatefulWidget {
   @override
   _LoginScreenState createState() => _LoginScreenState();
@@ -58,10 +56,7 @@ class _LoginScreenState extends State<LoginScreen> {
                 },
               ),
               SizedBox(height: 20),
-              ElevatedButton(
-                onPressed: _login,
-                child: Text('Login'),
-              ),
+              ElevatedButton(onPressed: _login, child: Text('Login')),
             ],
           ),
         ),
